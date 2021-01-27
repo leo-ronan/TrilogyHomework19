@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import EmployeeTable from "./components/employeeTable";
+import EmployeeTable from "./employeeTable";
 import axios from "axios";
 
 class Home extends Component {
