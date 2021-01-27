@@ -21,7 +21,7 @@ class Home extends Component {
     };
 
     apiCall = () => {
-        axios.get("http://dummy.restapiexample.com/api/v1/employees")
+        axios.get("https://dummy.restapiexample.com/api/v1/employees")
         .then((res) => {
             console.log(res);
             this.setState({
