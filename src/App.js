@@ -8,7 +8,6 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Home />
         <Route exact path="/TrilogyHomework19/" component={Home} />
       </Router>
     </div>
