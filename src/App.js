@@ -8,6 +8,7 @@ function App() {
     <Router>
       <Navbar />
       <Route exact path="/" component={Home} />
+      <Home />
     </Router>
   );
 }
