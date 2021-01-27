@@ -6,10 +6,8 @@ import Home from "./components/Home.js";
 function App() {
   return (
     <div>
-      <Router>
         <Navbar />
         <Route exact path="/TrilogyHomework19/" component={Home} />
-      </Router>
     </div>
 
   );
