@@ -58,7 +58,7 @@ class Home extends Component {
 
     render() {
         return (
-        <>
+        <div>
             <div className="container">
                 <div className="row">
                     <div className="col">
@@ -90,7 +90,7 @@ class Home extends Component {
                 </div>
             </div>
             <EmployeeTable employees={this.state.employeesDisplayed} />
-        </>
+        </div>
         );
       }
     }

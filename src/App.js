@@ -5,11 +5,14 @@ import Home from "./components/Home.js";
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/TrilogyHomework19" component={Home} />
-      <Navbar />
-      <Home />
-    </Router>
+    <div>
+      <Router>
+        <Navbar />
+        <Home />
+        <Route exact path="/TrilogyHomework19" component={Home} />
+      </Router>
+    </div>
+
   );
 }
 
