@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="nav"><a className="nav-link active" href="/">Employee Directory</a></nav>
+    <nav className="nav"><a className="nav-link active" href="/TrilogyHomework19/">Employee Directory</a></nav>
   );
 };
 
