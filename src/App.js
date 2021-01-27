@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
         <Navbar />
-        <Route exact path="/TrilogyHomework19/" component={Home} />
+        <Home />
     </div>
 
   );
